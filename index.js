@@ -1,5 +1,6 @@
-// console.log(process);
-// console.log(process.env);
-// console.log(process.argv);
-// console.log(__dirname);
-// console.log(__file);
+const contacts = require("./contacts");
+
+// contacts.listContacts();
+// contacts.getContactById("e6ywwRe4jcqxXfCZOj_1e");
+// contacts.removeContact("e6ywwRe4jcqxXfCZOj_1e");
+contacts.addContact("Igor", "any@any.gmail.com", "e6ywwRe4jcqxXfCZOj_1e");
